@@ -5,7 +5,7 @@ const Different = () => {
     return (
         <div className='flex flex-col items-center my-24'>
             <h1 className='mb-2 text-xl md:text-3xl text-blue-600 font-bold text-center w-10/12'>What's different about FranChild</h1>
-            <hr className='border-2 border-gray-200 w-7/12 mb-20' />
+            <hr className='border-2 border-dotted border-gray-200 w-7/12 mb-20' />
 
             <div className='w-10/12 flex flex-col md:flex-row justify-around items-center'>
                 <div className='w-20 flex flex-col items-center mb-12 md:mb-6'>
