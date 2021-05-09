@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages';
@@ -8,17 +8,13 @@ import Services from './pages/services';
 import Contact from './pages/contact';
 import Dropdown from './components/Dropdown';
 
-function App() {
-  const [isOpen, setIsOpen] = useState(false);
 
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };
+function App() {
 
   return (
     <>
-      <Header toggle={toggle} />
-      <Dropdown isOpen={isOpen} toggle={toggle} />
+      <Header />
+      <Dropdown />
       <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />

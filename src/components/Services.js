@@ -1,11 +1,18 @@
 import React,{useState} from 'react';
 import data from '../data';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 const Services = () => {
-    const [items, setItems] = useState(data)
+    const [items] = useState(data)
 
     return (
-        <div className='flex justify-center px-8 '>
+        <div className='flex justify-center px-8 ' 
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out">
+
             <div className='w-10/12 flex flex-col '>
                 <h1 className='flex justify-center mb-20 text-2xl md:text-3xl text-blue-600 font-bold text-center'>
                     All your HR needs from one convenient source
@@ -13,9 +20,13 @@ const Services = () => {
 
                 <section className='flex flex-wrap justify-center '>
                      {items.map((item) => {
-                        const { id, path, title, desc} = item
+                        const { id, aos, duration, easing, path, title, desc} = item
                         return(
-                            <div key={id} className='w-72 md:w-64 lg:w-72 h-72 mb-20 md:mr-9 border rounded-2xl flex flex-col items-center'>
+                            <div key={id} className='w-72 md:w-64 lg:w-72 h-72 mb-20 md:mr-9 border rounded-2xl flex flex-col items-center'
+                                data-aos={aos}
+                                data-aos-duration={duration}
+                                data-aos-easing={easing}
+                            >
 
                                 <div className='-mt-8'>
                                 <img className=' h-20 w-20' src={path} alt={title}  />
