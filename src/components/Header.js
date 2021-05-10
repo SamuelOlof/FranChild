@@ -1,12 +1,32 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
+import Dropdown from './Dropdown';
 
 const Header = () => {
     const [isClick, setIsClick] = useState(false);
+    const [dropdown, setDropdown] = useState(false);
 
-  const toggle = () => {
-    setIsClick(!isClick);
-  };
+    const toggle = () => {
+        setIsClick(!isClick);
+    };
+
+    const onMouseEnter = () => {
+        if (window.innerWidth < 768){
+            setDropdown(false);
+        }else{
+            setDropdown(true);
+        }
+    };
+
+    const onMouseLeave = () => {
+        if (window.innerWidth < 768){
+            setDropdown(false);
+        }else{
+            setDropdown(false);
+        }
+    };
+    
+
     return (
         
         <nav className=' shadow-sm flex justify-center bg-white fixed inset-x-0 top-0'>
@@ -59,9 +79,15 @@ const Header = () => {
                         About Us
                     </Link>
 
-                    <Link className='p-4 hover:text-blue-600' to='/services'>
-                        Our Services
-                    </Link>
+                    <div className='inline-block'>
+                        <Link className='p-4 hover:text-blue-600' to='/services'
+                            onMouseEnter={onMouseEnter}
+                            onMouseLeave={onMouseLeave}
+                        >
+                            Our services
+                        </Link>
+                        {dropdown && <Dropdown/>}
+                    </div>
 
                     <Link className='p-4 hover:text-blue-600' to='/contact'>
                         Contact Us

@@ -1,29 +1,51 @@
-import React from 'react'
+import React, { useState } from 'react';
+import MenuItems from './MenuItems';
 import { Link } from 'react-router-dom';
 
-const Dropdown = ({ isClick, toggle }) => {
+const Dropdown = ({toggle}) => {
+    const [click, setClick] = useState(false)
+
+    const handleClick = () => setClick(true)
     return (
-        <div className={
-            isClick ? 'grid grid-rows-4 text-center items-center bg-yellow-300 mt-16' : 'hidden'
+        <div onClick={toggle} className={click ? 'grid grid-rows-5 text-center items-center bg-blue-300 mt-16' :'hidden' }>
+            {MenuItems.map((item, index) => {
+                return(
+                    <div key={index} className='pt-2'>
+                        <Link className={item.cName} to={item.path} onClick={()=> setClick(false)}>
+                            {item.title}
+                        </Link>
+                    </div>
+                )
+            })
+
             }
-            onClick={toggle}
-        >
-                <Link className='p-4 hover:text-blue-600' to='/'>
-                    Home
-                </Link>
 
-                <Link className='p-4 hover:text-blue-600' to='/about'>
-                    About Us
-                </Link>
-
-                <Link className='p-4 hover:text-blue-600' to='/services'>
-                     Our Services
-                </Link>
-
-                <Link className='p-4 hover:text-blue-600' to='/contact'>
-                    Contact Us
-                </Link>
         </div>
+        // <div className={
+        //     isClick ? 'grid grid-rows-5 text-center items-center bg-blue-300 mt-16' : 'hidden'
+        //     }
+        //     onClick={toggle}
+        // >
+        //         <Link className='p-4 hover:text-blue-600' to='/training'>
+        //             Training and Development
+        //         </Link>
+
+        //         <Link className='p-4 hover:text-blue-600' to='/search'>
+        //             Search and Placement
+        //         </Link>
+
+        //         <Link className='p-4 hover:text-blue-600' to='/evaluation'>
+        //              Staff Evaluation
+        //         </Link>
+
+        //         <Link className='p-4 hover:text-blue-600' to='/outsourcing'>
+        //             Outsourcing
+        //         </Link>
+
+        //         <Link className='p-4 hover:text-blue-600' to='/advisory'>
+        //             HR and Business Advisory
+        //         </Link>
+        // </div>
     )
 }
 
