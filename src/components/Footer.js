@@ -54,10 +54,7 @@ const Footer = () => {
             <div className='flex flex-col md:flex-row w-10/12 justify-between mt-8 mb-16'>
                 <div className='w-52'>
                     <h1>Contact</h1>
-                    <p>Email-  
-                        <span>
-                            <a href="mailto:franchild@gmail.com"> franchild@gmail.com</a>
-                        </span>
+                    <p>Email- <a href="mailto:info@franchild.com"> info@franchild.com</a>
                     </p>
                 </div>
 

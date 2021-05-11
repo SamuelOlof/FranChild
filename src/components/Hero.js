@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <div className='flex justify-center h-screen items-center mt-20 md:mt-0'>
+        <div className='flex justify-center h-screen items-center mt-20 md:mt-20'>
             <div className='w-10/12 px-8 flex flex-col md:items-center md:space-y-5 lg:flex-row lg:justify-between '>
                 <div className='md:w-4/5 lg:w-2/5 mb-14 lg:mb-0'>
                     <h1 className='text-3xl lg:text-4xl text-blue-600 font-semibold mb-4'>Your Partner for Growth</h1>
@@ -15,7 +15,11 @@ const Hero = () => {
                 </div>
 
                 {/* hero image */}
-                <div className=''>
+                <div className='' 
+                    data-aos="fade-left"
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-in-out"
+                >
                     <img className='md:w-92 md:h-80' src='./images/g1.jpg' alt="hero image"/>
                 </div>
             </div>

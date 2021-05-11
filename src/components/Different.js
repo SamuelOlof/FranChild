@@ -31,7 +31,7 @@ const Different = () => {
                 </div>
             </div>
 
-            <button className='mt-20 px-4 py-2 bg-blue-600 text-white rounded  hover:bg-blue-700 transition focus:outline-none animate-bounce' type="submit">
+            <button className='mt-20 px-4 py-2 bg-blue-600 text-white rounded  hover:bg-blue-700 transition focus:outline-none animate-bounce' style={{zIndex:-1}} type="submit">
                 <a href="mailto:franchild@gmail.com">Contact Us</a>
             </button>
         </div>

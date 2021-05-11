@@ -30,7 +30,7 @@ const data = [
 
     {
         id: 4,
-        aos: 'zoom-in-up',
+        aos: 'fade-right',
         duration:'1000',
         easing:'ease-in-out',
         path: './images/Outsourcing.png',
@@ -40,7 +40,7 @@ const data = [
 
     {
         id: 5,
-        aos: 'zoom-in-up',
+        aos: 'fade-left',
         duration:'1000',
         easing:'ease-in-out',
         path: './images/Business_Advisory.png',

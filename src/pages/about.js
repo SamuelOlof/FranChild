@@ -3,19 +3,14 @@ import React from 'react'
 const About = () => {
     return (
         <>
-        <div className='relative '>
+        <div className='relative ' style={{zIndex:-1}}>
             <div className='h-72 md:h-80  mt-16 opacity-30 bg-cover bg-center bg-no-repeat' style={{backgroundImage:`url(./images/about_image.jpg)`}}></div>
             <div className='text-blue-600 absolute top-0 w-full  flex flex-col mt-24 items-center'>
                 <h1 className='text-2xl md:text-4xl font-bold text-center'> Who we are | Human Resource Management </h1> 
                 <h1 className='mt-6 text-xl font-semibold'> Our Culture</h1>
             </div>
         </div>
-        {/* <div className='mt-16 h-80 bg-cover bg-center bg-no-repeat bg-opacity-65' style={{backgroundImage:`url(./images/about_image.jpg)`}}>
-              <div className='w-full flex flex-col justify-center items-center  h-80 text-blue-600 backdrop-filter backdrop-blur-sm backdrop-grayscale backdrop-brightness-95 '>
-                <h1 className='text-md md:text-4xl font-bold'> Who we are | Human Resource Management </h1> 
-                <h1 className='mt-6 text-xl font-semibold'> Our Culture</h1>
-              </div>     
-        </div> */}
+
         <div className='flex flex-col items-center px-8 my-16'>
             <div className='text-md mt-16 w-10/12 leading-8'>
                 <p>
