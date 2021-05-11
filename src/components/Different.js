@@ -1,7 +1,4 @@
 import React from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
-AOS.init();
 
 
 const Different = () => {
@@ -31,8 +28,8 @@ const Different = () => {
                 </div>
             </div>
 
-            <button className='mt-20 px-4 py-2 bg-blue-600 text-white rounded  hover:bg-blue-700 transition focus:outline-none animate-bounce' style={{zIndex:-1}} type="submit">
-                <a href="mailto:franchild@gmail.com">Contact Us</a>
+            <button className='mt-12 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition focus:outline-none animate-bounce' style={{zIndex:-1}} type="submit" >
+                <a href="mailto:info@franchild.com">Contact Us</a>
             </button>
         </div>
     )
