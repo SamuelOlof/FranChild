@@ -22,7 +22,7 @@ const Services = () => {
                      {items.map((item) => {
                         const { id, aos, duration, easing, path, title, desc, servicePath} = item
                         return(
-                            <div key={id} className='w-72 md:w-64 lg:w-72 h-96 sm:h-80 mb-20 md:mb-24 md:mr-9 border rounded-2xl shadow-2xl flex flex-col items-center text-center'
+                            <div key={id} className='w-72 md:w-64 lg:w-72 h-96 sm:h-80 mb-20 md:mb-24 md:mr-9 rounded-2xl shadow-2xl flex flex-col items-center text-center'
                                 data-aos={aos}
                                 data-aos-duration={duration}
                                 data-aos-easing={easing}
