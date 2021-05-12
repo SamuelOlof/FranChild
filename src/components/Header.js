@@ -50,15 +50,15 @@ const Header = () => {
                                 Home
                             </a>
             
-                            <a  className='hover:text-blue-600 mb-16 transition duration-500 ease-in-out' href='/about'>
+                            <a  className='hover:text-blue-600 mb-16 transition duration-500 ease-in-out' href='../pages/about.js'>
                                 About Us
                             </a>
             
-                            <a className='hover:text-blue-600 mb-16 transition duration-500 ease-in-out' href='/services'>
+                            <a className='hover:text-blue-600 mb-16 transition duration-500 ease-in-out' href='../pages/services.js'>
                                     Our Services
                             </a>
             
-                            <a className='hover:text-blue-600 mb-16 transition duration-500 ease-in-out' href='/contact'>
+                            <a className='hover:text-blue-600 mb-16 transition duration-500 ease-in-out' href='../pages/contact.js'>
                                 Contact Us
                             </a>
                         </div>
