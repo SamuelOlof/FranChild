@@ -1,6 +1,7 @@
 import React from 'react'
 
-const About = () => {
+
+const about = () => {
     return (
         <>
         <div className='relative ' style={{zIndex:-1}}>
@@ -32,7 +33,7 @@ const About = () => {
             <div className='h-60 w-10/12 mt-20 rounded-lg shadow-2xl bg-cover pl-8 pt-12 md:bg-center lg:pl-16 lg:pt-16' style={{backgroundImage:`url(./images/call_image.jpg)`}}>
                 <p className='text-blue-600 text-2xl md:text-3xl font-semibold' >Looking for expert HR support</p>
                 <button className='px-4 py-2 mt-3 bg-blue-600 text-white rounded  hover:bg-blue-700 transition focus:outline-none' type="submit">
-                    <a href="mailto:franchild@gmail.com">Contact Us</a>
+                    <a href="mailto:info@franchild.com">Contact Us</a>
                 </button>
             </div>
         </div>
@@ -40,4 +41,4 @@ const About = () => {
     )
 }
 
-export default About
+export default about

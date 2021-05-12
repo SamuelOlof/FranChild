@@ -1,5 +1,8 @@
 import React,{useState} from 'react';
 import data from '../data';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Services = () => {
     const [items] = useState(data)
@@ -17,9 +20,9 @@ const Services = () => {
 
                 <section className='flex flex-wrap justify-center '>
                      {items.map((item) => {
-                        const { id, aos, duration, easing, path, title, desc} = item
+                        const { id, aos, duration, easing, path, title, desc, servicePath} = item
                         return(
-                            <div key={id} className='w-72 md:w-64 lg:w-72 h-96 sm:h-72 mb-20 md:mr-9 border rounded-2xl flex flex-col items-center text-center'
+                            <div key={id} className='w-72 md:w-64 lg:w-72 h-96 sm:h-80 mb-20 md:mb-24 md:mr-9 border rounded-2xl shadow-2xl flex flex-col items-center text-center'
                                 data-aos={aos}
                                 data-aos-duration={duration}
                                 data-aos-easing={easing}
@@ -33,7 +36,9 @@ const Services = () => {
 
                                 <p className='text-gray-500 px-2 sm:px-3 text-center'>{desc}</p>
 
-                                <button className='px-4 py-2 mt-4 bg-blue-600 text-white rounded hover:bg-blue-700 transition focus:outline-none' type="submit">Learn more...</button>
+                                <button className='px-4 py-2 mt-12 sm:mt-8 mb-0 bg-blue-600 text-white rounded hover:bg-blue-700 transition focus:outline-none' type="submit">
+                                    <a href={servicePath} target='_blank'>Learn more...</a>
+                                </button>
                             </div>
                         )
                     })}

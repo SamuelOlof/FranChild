@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { IoLogoTwitter, IoLogoInstagram, IoLogoFacebook } from 'react-icons/io';
 
 const Footer = () => {
     return (
@@ -55,6 +56,18 @@ const Footer = () => {
                 <div className='w-52'>
                     <h1>Contact</h1>
                     <p>Email- <a href="mailto:info@franchild.com"> info@franchild.com</a>
+                    {/* social icons */}
+                    <div className='flex mt-2'>
+                        <a href="http://twitter.com">
+                            <IoLogoTwitter className='mr-4'/>
+                        </a>
+                        <a href="http://instagram.com">
+                            <IoLogoInstagram className='mr-4'/>
+                        </a>
+                        <a href="http://facebook.com" >
+                            <IoLogoFacebook className='mr-4'/>
+                        </a>
+                    </div>
                     </p>
                 </div>
 

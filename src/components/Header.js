@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
 import Dropdown from './Dropdown';
 
 const Header = () => {
@@ -32,9 +31,9 @@ const Header = () => {
         <nav className=' shadow-sm flex justify-center bg-white fixed inset-x-0 top-0'>
             <div className='w-10/12 flex justify-between h-16 items-center '>
                 {/* Company name */}
-                <Link to='/' className='pl-8 text-2xl font-bold tracking-widest'>
+                <a href='/' className='pl-8 text-2xl font-bold tracking-widest'>
                     Fran<span className='text-blue-600'>Child</span>
-                </Link>
+                </a>
 
                 {/* hamburger */}
                 <div className='px-4 cursor-pointer md:hidden' onClick={toggle}>
@@ -47,21 +46,21 @@ const Header = () => {
                                 <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
                             </div>
 
-                            <Link className='hover:text-blue-600 mb-16 transition duration-500 ease-in-out' to='/'>
+                            <a className='hover:text-blue-600 mb-16 transition duration-500 ease-in-out' href='/'>
                                 Home
-                            </Link>
+                            </a>
             
-                            <Link className='hover:text-blue-600 mb-16 transition duration-500 ease-in-out' to='/about'>
+                            <a  className='hover:text-blue-600 mb-16 transition duration-500 ease-in-out' href='/about'>
                                 About Us
-                            </Link>
+                            </a>
             
-                            <Link className='hover:text-blue-600 mb-16 transition duration-500 ease-in-out' to='/services'>
+                            <a className='hover:text-blue-600 mb-16 transition duration-500 ease-in-out' href='/services'>
                                     Our Services
-                            </Link>
+                            </a>
             
-                            <Link className='hover:text-blue-600 mb-16 transition duration-500 ease-in-out' to='/contact'>
+                            <a className='hover:text-blue-600 mb-16 transition duration-500 ease-in-out' href='/contact'>
                                 Contact Us
-                            </Link>
+                            </a>
                         </div>
                         </>
                     )
@@ -71,27 +70,28 @@ const Header = () => {
 
                 {/* nav items */}
                 <div className="pr-8 md:block hidden ">
-                    <Link className='p-4 hover:text-blue-600' to='/'>
+                    <a className='p-4 hover:text-blue-600' href='/'>
                         Home
-                    </Link>
+                    </a>
 
-                    <Link className='p-4 hover:text-blue-600' to='/about'>
+                    <a className='p-4 hover:text-blue-600' href='/about'>
                         About Us
-                    </Link>
+                    </a>
 
                     <div className='inline-block'>
-                        <Link className='p-4 hover:text-blue-600' to='/services'
+                        <a className='p-4 hover:text-blue-600' href='/services'
                             onMouseEnter={onMouseEnter}
                             onMouseLeave={onMouseLeave}
                         >
                             Our services
-                        </Link>
+                        </a>
                         {dropdown && <Dropdown/>}
                     </div>
 
-                    <Link className='p-4 hover:text-blue-600' to='/contact'>
+                    <a className='p-4 hover:text-blue-600' href='/contact'>
                         Contact Us
-                    </Link>
+                    </a>
+
                 </div>
             </div>
          

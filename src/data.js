@@ -6,7 +6,8 @@ const data = [
         easing:'ease-in-out',
         path: './images/development.png',
         title: 'Training and Development',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate quia. Omnis eaque tempora nisi? Incidunt'
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate quia. Omnis eaque tempora nisi? Incidunt',
+        servicePath: '/training'
     },
 
     {
@@ -15,7 +16,8 @@ const data = [
         easing:'ease-in-out',
         path: './images/Search&Placement.png',
         title: 'Search and Placement',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate quia. Omnis eaque tempora nisi? Incidunt'
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate quia. Omnis eaque tempora nisi? Incidunt',
+        servicePath: '/search'
     },
 
     {
@@ -25,7 +27,8 @@ const data = [
         easing:'ease-in-out',
         path: './images/Staff_Evaluation.png',
         title: 'Staff Evaluation',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate quia. Omnis eaque tempora nisi? Incidunt'
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate quia. Omnis eaque tempora nisi? Incidunt',
+        servicePath: 'evaluation'
     },
 
     {
@@ -35,7 +38,8 @@ const data = [
         easing:'ease-in-out',
         path: './images/Outsourcing.png',
         title: 'Outsourcing',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate quia. Omnis eaque tempora nisi? Incidunt'
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate quia. Omnis eaque tempora nisi? Incidunt',
+        servicePath: 'outsourcing'
     },
 
     {
@@ -45,7 +49,8 @@ const data = [
         easing:'ease-in-out',
         path: './images/Business_Advisory.png',
         title: 'HR and Business Advisory',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate quia. Omnis eaque tempora nisi? Incidunt'
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate quia. Omnis eaque tempora nisi? Incidunt',
+        servicePath: 'advisory'
     },
 ]
 

@@ -10,7 +10,7 @@ const Hero = () => {
                     <p className='leading-loose text-gray-500 mb-4'>We take away the HR headaches so you can focus on serving clients and growing your business.</p>
                     
                     <button className='px-4 py-2 bg-blue-600 text-white rounded  hover:bg-blue-700 transition focus:outline-none' type="submit">
-                        <a href="mailto:franchild@gmail.com">Contact Us</a>
+                        <a href="mailto:info@franchild.com">Contact Us</a>
                     </button>
                 </div>
 
