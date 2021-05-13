@@ -4,10 +4,10 @@ import { IoLogoTwitter, IoLogoInstagram, IoLogoFacebook } from 'react-icons/io';
 
 const Footer = () => {
     return (
-        <div className='bg-blue-900 flex flex-col items-center text-white md:text-left '>
-            <div className='flex flex-col md:flex-row w-10/12 justify-between mt-16' >
+        <div className='bg-blue-900 flex flex-col items-center text-white text-center md:text-left'>
+            <div className='flex flex-col md:flex-row w-11/12 sm:w-10/12 justify-between mt-16' >
                 {/* company name */}
-                <div className='w-52'>
+                <div className='md:w-52'>
                     <Link to='/' className='text-2xl font-bold tracking-widest'>
                         Fran<span className='text-blue-600'>Child</span>
                     </Link>
@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
 
                 {/* list items */}
-                <div className='w-52' >
+                <div className='md:w-52' >
                     <ul>
                         <li className='mb-3'>
                             <Link to='/'>
@@ -44,20 +44,22 @@ const Footer = () => {
                 </div>
 
                 {/* newsletter */}
-                <div className='w-52 mt-8 md:mt-0' >
-                    <h1 className='mb-3'>Email</h1>
-                    <input className='px-2 py-1 rounded-md border-2 border-blue-600 bg-blue-900 block focus:outline-none' type="email" name="mail" placeholder='your email here' />
-                    <button className='mt-3 px-6 py-1 bg-blue-600 text-white rounded  hover:bg-blue-700 transition focus:outline-none' type="submit">Subscribe</button>
+                <div className='md:w-52 mt-8 md:mt-0 flex flex-col items-center' >
+                    <div className='w-52'>
+                        <h1 className='mb-3'>Email</h1>
+                        <input className='px-2 py-1 rounded-md border-2 border-blue-600 bg-blue-900 block focus:outline-none' type="email" name="mail" placeholder='your email here' />
+                        <button className='mt-3 px-6 py-1 bg-blue-600 text-white rounded  hover:bg-blue-700 transition focus:outline-none' type="submit">Subscribe</button>
+                        </div>
                 </div>
             </div>
 
             {/* contact section */}
-            <div className='flex flex-col md:flex-row w-10/12 justify-between mt-8 mb-16'>
-                <div className='w-52'>
-                    <h1>Contact</h1>
+            <div className='flex flex-col md:flex-row w-11/12 sm:w-10/12 justify-between mt-8 mb-16'>
+                <div className='md:w-52 '>
+                    <h1 className='mb-3 md:mb-0'>Contact</h1>
                     <p>Email- <a href="mailto:info@franchild.com"> info@franchild.com</a>
                     {/* social icons */}
-                    <div className='flex mt-2'>
+                    <div className='flex justify-center md:justify-start mt-2 '>
                         <a href="http://twitter.com">
                             <IoLogoTwitter className='mr-4'/>
                         </a>
@@ -71,11 +73,11 @@ const Footer = () => {
                     </p>
                 </div>
 
-                <div className='w-52 mt-0 md:mt-6'>
+                <div className='md:w-52 mt-2  md:mt-6'>
                     +7(900)2932166
                 </div>
 
-                <div className='w-52 mt-0 md:mt-6'>
+                <div className='md:w-52 mt-2 md:mt-6'>
                     Alpha beach road, Lekki, Lagos.
                 </div>
             </div>

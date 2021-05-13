@@ -14,19 +14,29 @@ const Services = () => {
         </div>
 
         <div className='flex flex-col items-center my-20'>
-            <div className='w-10/12 px-8 mb-8'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit minima ea illum cumque reprehenderit recusandae quas dignissimos doloremque, praesentium laudantium corporis deleniti voluptas asperiores odit a mollitia dolorem laboriosam quibusdam.
+            <div className='w-10/12 px-8 mb-8 text-gray-700'>
+                <h1 className='mt-5 text-xl sm:text-2xl text-blue-600 text-semibold'>Our priority at FranChild is to drive change and deliver growth for your business.</h1>
+
+                <p className='mt-4'>
+                    We do this by providing embedded, strategic HR support to solve your people issues.
+                </p>
+
+                <p className='mt-4'>
+                    When you choose FranChild, one of our highly experienced, local People Directors will join your business on a flexible, part-time basis. They can work with you remotely or on-site depending on your need and they will get to know your business. More importantly, they get to know the people within it and deliver results.
+                </p>
+
+                <p className='mt-5 text-xl sm:text-2xl text-blue-600 text-semibold'>Our HR services include:</p>
             </div>
             {items.map((item) => {
                 const { id, aos, duration, easing, title, desc, path} = item
                 return(
-                <div key={id} className='w-10/12 pl-8 border-t-2 mt-16'
+                <div key={id} className='w-10/12 pl-8 border-t-2 mt-10'
                     data-aos={aos}
                     data-aos-duration={duration}
                     data-aos-easing={easing}
                 >
                     <h1 className='text-xl sm:text-3xl text-blue-600 font-semibold pt-4'>{title}</h1>
-                    <p className='text-gray-500'>{desc}</p>
+                    <p className='text-gray-700 mt-2'>{desc}</p>
                     <button className='px-4 py-2 mt-4 bg-blue-600 text-white rounded hover:bg-blue-700 transition focus:outline-none' type="submit">
                         <a href={path} target='_blank'>
                             Learn more...

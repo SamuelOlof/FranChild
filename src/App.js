@@ -15,6 +15,7 @@ import Advisory from './pages/advisory';
 
 
 function App() {
+  
 
   return (
     <>
@@ -23,7 +24,7 @@ function App() {
       <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />
-          <Route path='/services' component={Services} target="_blank" />
+          <Route path='/services' component={Services} />
           <Route path='/contact' component={Contact} />
           <Route path='/training' component={Training} />
           <Route path='/search' component={Search} />
