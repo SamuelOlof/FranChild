@@ -8,7 +8,7 @@ const Services = () => {
     const [items] = useState(data)
 
     return (
-        <div className='flex justify-center px-8 ' 
+        <div className='flex justify-center px-4 ' 
             data-aos="fade-up"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out">

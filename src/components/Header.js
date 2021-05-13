@@ -31,7 +31,7 @@ const Header = () => {
         <nav className=' shadow-sm flex justify-center bg-white fixed inset-x-0 top-0'>
             <div className='w-11/12 sm:w-10/12 flex justify-between h-16 items-center '>
                 {/* Company name */}
-                <a href='/' className='pl-8 text-2xl font-bold tracking-widest'>
+                <a href='/' className='pl-4 text-2xl font-bold tracking-widest'>
                     Fran<span className='text-blue-600'>Child</span>
                 </a>
 
@@ -69,7 +69,7 @@ const Header = () => {
                 </div>
 
                 {/* nav items */}
-                <div className="pr-8 md:block hidden ">
+                <div className="pr-4 md:block hidden ">
                     <a className='p-4 hover:text-blue-600' href='/'>
                         Home
                     </a>

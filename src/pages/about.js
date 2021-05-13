@@ -13,7 +13,7 @@ const about = () => {
             </div>
         </div>
 
-        <div className='flex flex-col items-center px-8 my-16' >
+        <div className='flex flex-col items-center px-4 my-16' >
             <div className='text-md mt-16 w-11/12 sm:w-10/12 leading-8 text-gray-700'>
                 <p className='mt-4'>
                         We are a business strategy, human capital development outfit focused in performing HR strategy interventions that ensure that our client's human capital serves the best interests of the company. By creating and developing human resources models specific to the organizations that hire them.

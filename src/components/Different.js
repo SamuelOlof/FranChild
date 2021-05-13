@@ -7,7 +7,7 @@ const Different = () => {
             <h1 className='mb-2 text-xl md:text-3xl text-blue-600 font-bold text-center w-11/12 sm:w-10/12'>What's different about FranChild</h1>
             <hr className='border-2 border-dotted border-gray-200 w-7/12 mb-20' />
 
-            <div className='w-11/12 sm:w-10/12 flex flex-col md:flex-row justify-around items-center'>
+            <div className='w-11/12 sm:w-10/12 px-4 flex flex-col md:flex-row justify-around items-center'>
                 <div className='w-20 flex flex-col items-center mb-12 md:mb-6'>
                      <img className='h-16' src="./images/Proactive.png" alt="Proactive" />
                      <h1 className='text-3xl font-bold text-blue-600 mt-2'>Proactive</h1>

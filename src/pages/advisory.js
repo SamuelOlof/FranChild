@@ -11,7 +11,7 @@ const advisory = () => {
         </div>
 
         <div className='flex justify-center'>
-            <div className='w-11/12 sm:w-10/12 px-8 py-10 leading-6'>
+            <div className='w-11/12 sm:w-10/12 px-4 py-10 leading-6'>
                 <h1>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestiae ipsam autem. Eaque placeat dignissimos est praesentium officia veritatis nam, quibusdam enim corrupti labore alias expedita vel vitae, dolor facilis?
                 </h1>

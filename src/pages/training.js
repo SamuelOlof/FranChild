@@ -12,7 +12,7 @@ const training = () => {
         </div>
 
         <div className='flex justify-center'>
-            <div className='w-11/12 sm:w-10/12 px-8 py-10 leading-6 text-gray-700'>
+            <div className='w-11/12 sm:w-10/12 px-4 py-10 leading-6 text-gray-700'>
                 <h1 className='text-lg text-blue-600'>
                     Imagine this: every employee not only knows exactly what is expected of them and are fully competent in every area of their job role, but they are well-trained to do the right thing every time and have fantastic people skills.
                 </h1>

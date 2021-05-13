@@ -14,7 +14,7 @@ const Services = () => {
         </div>
 
         <div className='flex flex-col items-center my-20'>
-            <div className='w-11/12 sm:w-10/12 px-8 mb-8 text-gray-700'>
+            <div className='w-11/12 sm:w-10/12 px-4 mb-8 text-gray-700'>
                 <h1 className='mt-5 text-xl sm:text-2xl text-blue-600 text-semibold'>Our priority at FranChild is to drive change and deliver growth for your business.</h1>
 
                 <p className='mt-4'>
