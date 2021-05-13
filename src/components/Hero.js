@@ -4,7 +4,7 @@ import React from 'react';
 const Hero = () => {
     return (
         <div className='flex justify-center h-screen items-center mt-8 sm:mt-20 lg:mt-0'>
-            <div className='w-10/12 px-8 pt-4 sm:pt-0 flex flex-col md:items-center md:space-y-5 lg:flex-row lg:justify-between '>
+            <div className='w-11/12 sm:w-10/12 px-8 pt-4 sm:pt-0 flex flex-col md:items-center md:space-y-5 lg:flex-row lg:justify-between '>
                 <div className='md:w-4/5 lg:w-2/5 mb-14 lg:mb-0'>
                     <h1 className='text-3xl lg:text-4xl text-blue-600 font-semibold mb-4'>Your Partner for Growth</h1>
                     <p className='leading-loose text-gray-500 mb-4'>We take away the HR headaches so you can focus on serving clients and growing your business.

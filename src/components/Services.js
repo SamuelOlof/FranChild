@@ -13,7 +13,7 @@ const Services = () => {
             data-aos-duration="1500"
             data-aos-easing="ease-in-out">
 
-            <div className='w-10/12 flex flex-col '>
+            <div className='w-11/12 sm:w-10/12 flex flex-col '>
                 <h1 className='flex justify-center mb-20 text-2xl md:text-3xl text-blue-600 font-bold text-center'>
                     All your HR needs from one convenient source
                 </h1>

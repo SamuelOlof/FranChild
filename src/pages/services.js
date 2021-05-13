@@ -14,7 +14,7 @@ const Services = () => {
         </div>
 
         <div className='flex flex-col items-center my-20'>
-            <div className='w-10/12 px-8 mb-8 text-gray-700'>
+            <div className='w-11/12 sm:w-10/12 px-8 mb-8 text-gray-700'>
                 <h1 className='mt-5 text-xl sm:text-2xl text-blue-600 text-semibold'>Our priority at FranChild is to drive change and deliver growth for your business.</h1>
 
                 <p className='mt-4'>
@@ -30,7 +30,7 @@ const Services = () => {
             {items.map((item) => {
                 const { id, aos, duration, easing, title, desc, path} = item
                 return(
-                <div key={id} className='w-10/12 pl-8 border-t-2 mt-10'
+                <div key={id} className='w-11/12 sm:w-10/12 pl-8 border-t-2 mt-10'
                     data-aos={aos}
                     data-aos-duration={duration}
                     data-aos-easing={easing}
@@ -46,7 +46,7 @@ const Services = () => {
                 )
             })}
 
-            <div className='h-60 w-10/12 mt-20 rounded-lg shadow-2xl bg-cover pl-8 pt-12 md:bg-center lg:pl-16 lg:pt-16' style={{backgroundImage:`url(./images/call_image.jpg)`}}>
+            <div className='h-60 w-11/12 sm:w-10/12 mt-20 rounded-lg shadow-2xl bg-cover pl-8 pt-12 md:bg-center lg:pl-16 lg:pt-16' style={{backgroundImage:`url(./images/call_image.jpg)`}}>
                 <p className='text-blue-600 text-2xl md:text-3xl font-semibold' >Looking for expert HR support</p>
                 <button className='px-4 py-2 mt-3 bg-blue-600 text-white rounded  hover:bg-blue-700 transition focus:outline-none' type="submit">
                     <a href="mailto:info@franchild.com">Contact Us</a>

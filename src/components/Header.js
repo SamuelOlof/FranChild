@@ -29,7 +29,7 @@ const Header = () => {
     return (
         
         <nav className=' shadow-sm flex justify-center bg-white fixed inset-x-0 top-0'>
-            <div className='w-10/12 flex justify-between h-16 items-center '>
+            <div className='w-11/12 sm:w-10/12 flex justify-between h-16 items-center '>
                 {/* Company name */}
                 <a href='/' className='pl-8 text-2xl font-bold tracking-widest'>
                     Fran<span className='text-blue-600'>Child</span>
