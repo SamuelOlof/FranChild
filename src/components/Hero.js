@@ -22,7 +22,7 @@ const Hero = () => {
                     data-aos-duration="1500"
                     data-aos-easing="ease-in-out"
                 >
-                    <img className='md:w-92 md:h-80' src='./images/g1.jpg' alt="hero image"/>
+                    <img className='md:w-92 md:h-80 rounded-md' src='./images/g2.jpg' alt="hero image"/>
                 </div>
             </div>
         </div>
