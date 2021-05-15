@@ -6,7 +6,7 @@ const data = [
         easing:'ease-in-out',
         path: './images/development.png',
         title: 'Training and Development',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate quia. Omnis eaque tempora nisi? Incidunt',
+        desc: 'Want to improve processes and performance of both the individual employees and your organization as a whole.',
         servicePath: '/training'
     },
 

@@ -9,7 +9,7 @@ const Footer = () => {
                 {/* company name */}
                 <div className='md:w-52'>
                     <Link to='/' className='text-2xl font-bold tracking-widest'>
-                        Fran<span className='text-blue-600'>Child</span>
+                        <span className='text-blue-600'>FranChild</span>
                     </Link>
                     <p className='mt-2 mb-8'>Your Partner for Growth</p>
                 </div>

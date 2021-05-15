@@ -4,5 +4,9 @@
 
 
 body{
-    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-family: 'Helvetica 35 Thin', 'sans-serif';
+}
+
+.blue-text{
+    @apply text-blue-900 ;
 }

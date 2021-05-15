@@ -14,7 +14,7 @@ const Services = () => {
             data-aos-easing="ease-in-out">
 
             <div className='w-11/12 sm:w-10/12 flex flex-col '>
-                <h1 className='flex justify-center mb-20 text-2xl md:text-3xl text-blue-600 font-bold text-center'>
+                <h1 className='flex justify-center mb-20 text-2xl md:text-3xl blue-text font-bold text-center'>
                     All your HR needs from one convenient source
                 </h1>
 
@@ -32,11 +32,11 @@ const Services = () => {
                                 <img className=' h-20 w-20' src={path} alt={title}  />
                                 </div>
                             
-                                <h1 className='text-xl font-bold text-blue-600 my-4 mt-8'>{title}</h1>
+                                <h1 className='text-xl font-bold blue-text my-4 mt-8'>{title}</h1>
 
                                 <p className='text-gray-500 px-2 sm:px-3 text-center'>{desc}</p>
 
-                                <button className='px-4 py-2 mt-12 sm:mt-8 mb-0 bg-blue-600 text-white rounded hover:bg-blue-700 transition focus:outline-none' type="submit">
+                                <button className='px-4 py-2 mt-12 sm:mt-8 mb-0 bg-blue-900 text-white rounded hover:bg-blue-700 transition focus:outline-none' type="submit">
                                     <a href={servicePath} target='_blank'>Learn more...</a>
                                 </button>
                             </div>

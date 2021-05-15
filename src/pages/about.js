@@ -6,8 +6,8 @@ const about = () => {
     return (
         <>
         <div className='relative ' style={{zIndex:-1}}>
-            <div className='h-72 md:h-80  mt-16 opacity-30 bg-cover bg-center bg-no-repeat' style={{backgroundImage:`url(./images/about_image.jpg)`}}></div>
-            <div className='text-blue-600 absolute top-0 w-full  flex flex-col mt-24 items-center'>
+            <div className='h-72 md:h-80  mt-16 opacity-60 bg-cover bg-center bg-no-repeat' style={{backgroundImage:`url(./images/about_image.jpg)`}}></div>
+            <div className='blue-text absolute top-0 w-full  flex flex-col mt-24 items-center'>
                 <h1 className='text-2xl md:text-4xl font-bold text-center'> Who we are | Human Resource Management </h1> 
                 <h1 className='mt-6 text-xl font-semibold'> Our Culture</h1>
             </div>
@@ -23,7 +23,7 @@ const about = () => {
                     At FranChild, our business partners and HR consultants work to ensure that our clients are effectively using their personnel to achieve its stated goals, while also ensuring the workforce is operating at a high level of productivity and efficiency. 
                 </p> 
 
-                <p className='block mt-6 mb-2 text-xl text-blue-600 font-semibold'>
+                <p className='block mt-6 mb-2 text-xl blue-text font-semibold'>
                     We advise our clients on:
                 </p>
 
@@ -45,8 +45,8 @@ const about = () => {
             </div>
 
             <div className='h-60 w-11/12 sm:w-10/12 mt-20 rounded-lg shadow-2xl bg-cover pl-8 pt-12 md:bg-center lg:pl-16 lg:pt-16' style={{backgroundImage:`url(./images/call_image.jpg)`}}>
-                <p className='text-blue-600 text-2xl md:text-3xl font-semibold' >Looking for expert HR support</p>
-                <button className='px-4 py-2 mt-3 bg-blue-600 text-white rounded  hover:bg-blue-700 transition focus:outline-none' type="submit">
+                <p className='blue-text text-2xl md:text-3xl font-semibold' >Looking for expert HR support</p>
+                <button className='px-4 py-2 mt-3 bg-blue-900 text-white rounded  hover:bg-blue-700 transition focus:outline-none' type="submit">
                     <a href="mailto:info@franchild.com">Contact Us</a>
                 </button>
             </div>

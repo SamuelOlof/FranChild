@@ -32,7 +32,7 @@ const Header = () => {
             <div className='w-11/12 sm:w-10/12 flex justify-between h-16 items-center '>
                 {/* Company name */}
                 <a href='/' className='pl-4 text-2xl font-bold tracking-widest'>
-                    Fran<span className='text-blue-600'>Child</span>
+                    <span className='blue-text'>Fran</span>Child
                 </a>
 
                 {/* hamburger */}
