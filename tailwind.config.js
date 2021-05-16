@@ -8,4 +8,9 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  theme: {
+    letterSpacing: {
+     widest: '.25em',
+    },
+  },
 }

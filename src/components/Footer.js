@@ -47,7 +47,7 @@ const Footer = () => {
                 <div className='md:w-52 mt-8 md:mt-0 flex flex-col items-center' >
                     <div className='w-52'>
                         <h1 className='mb-3'>Email</h1>
-                        <input className='px-2 py-1 rounded-md border-2 border-blue-600 bg-blue-900 block focus:outline-none' type="email" name="mail" placeholder='your email here' />
+                        <input className='px-2 py-1 rounded-md border-2 border-blue-600 bg-blue-900 block focus:outline-none w-52' type="email" name="mail" placeholder='your email here' />
                         <button className='mt-3 px-6 py-1 bg-blue-600 text-white rounded  hover:bg-blue-700 transition focus:outline-none' type="submit">Subscribe</button>
                         </div>
                 </div>

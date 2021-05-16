@@ -11,7 +11,7 @@ const advisory = () => {
         </div>
 
         <div className='flex justify-center'>
-            <div className='w-11/12 sm:w-10/12 px-4 py-10 leading-6'>
+            <div className='w-11/12 sm:w-10/12 px-4 py-10 leading-8 text-gray-700'>
                 <p className='mt-4 text-xl'>
                     Getting the most out of your people isn’t always easy, and right now it’s even harder than usual.
                 </p>

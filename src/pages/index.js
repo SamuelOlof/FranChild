@@ -1,13 +1,14 @@
 import React from 'react'
-import Header from '../components/Header'
+import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Services from '../components/Services'
 import Different from '../components/Different'
 
+
 const Home = () => {
     return (
         <>
-            <Header  />
+            <Navbar  />
             <Hero />
             <Services />
             <Different />

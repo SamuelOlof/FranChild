@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Dropdown from './Dropdown';
 
-const Header = () => {
+const Navbar = () => {
     const [isClick, setIsClick] = useState(false);
     const [dropdown, setDropdown] = useState(false);
 
@@ -101,4 +101,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Navbar

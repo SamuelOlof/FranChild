@@ -11,7 +11,7 @@ const outsourcing = () => {
         </div>
 
         <div className='flex justify-center'>
-            <div className='w-11/12 sm:w-10/12 px-4 py-10 leading-6'>
+            <div className='w-11/12 sm:w-10/12 px-4 py-10 leading-6 text-gray-700'>
                 <h1 className='mt-4 text-lg'>
                     Let us lend our HR expertise to your employment projects. We’ll remove the guesswork and free up your staff to focus on core business, while you enjoy the peace of mind that comes from knowing your projects follow HR best practice and are aligned with relevant employment laws.
                 </h1>
