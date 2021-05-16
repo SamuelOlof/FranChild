@@ -16,11 +16,11 @@ const about = () => {
         <div className='flex flex-col items-center px-4 my-16' >
             <div className='text-md mt-16 w-11/12 sm:w-10/12 leading-8 text-gray-700'>
                 <p className='mt-4'>
-                        We are a business strategy, human capital development outfit focused in performing HR strategy interventions that ensure that our client's human capital serves the best interests of the company. By creating and developing human resources models specific to the organizations that hire them.
+                    We are a Human capital development outfit focused on providing business strategy and HR strategy interventions that ensure that our client's people resource provides the best service to our clients.
                 </p>
 
                 <p className='mt-4'>
-                    At FranChild, our business partners and HR consultants work to ensure that our clients are effectively using their personnel to achieve its stated goals, while also ensuring the workforce is operating at a high level of productivity and efficiency. 
+                    At FranChild our Business Partners work to ensure that our clients function optimally through their people resource to achieve business objectives while ensuring a happier and healthier workforce that understand the KPIs of Organizational performance. 
                 </p> 
 
                 <p className='block mt-6 mb-2 text-xl blue-text font-semibold'>
