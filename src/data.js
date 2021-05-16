@@ -16,7 +16,7 @@ const data = [
         easing:'ease-in-out',
         path: './images/Search&Placement.png',
         title: 'Search and Placement',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate quia. Omnis eaque tempora nisi? Incidunt',
+        desc: 'See how FranChild’s search and placement service can help you take on this challenge and find the right people for your organization.',
         servicePath: '/search'
     },
 
@@ -38,7 +38,7 @@ const data = [
         easing:'ease-in-out',
         path: './images/Outsourcing.png',
         title: 'Outsourcing',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate quia. Omnis eaque tempora nisi? Incidunt',
+        desc: 'HR does not have to be hard. Offload the complexity of HR to the professionals at FranChild, and free up your staff to focus on growing your business',
         servicePath: 'outsourcing'
     },
 
@@ -49,7 +49,7 @@ const data = [
         easing:'ease-in-out',
         path: './images/Business_Advisory.png',
         title: 'HR and Business Advisory',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate quia. Omnis eaque tempora nisi? Incidunt',
+        desc: 'FranChild encompass a broad spectrum of HR disciplines designed to provide HR expertise that supports the success of your organization.',
         servicePath: 'advisory'
     },
 ]

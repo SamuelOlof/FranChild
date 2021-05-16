@@ -12,12 +12,44 @@ const outsourcing = () => {
 
         <div className='flex justify-center'>
             <div className='w-11/12 sm:w-10/12 px-4 py-10 leading-6'>
-                <h1>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestiae ipsam autem. Eaque placeat dignissimos est praesentium officia veritatis nam, quibusdam enim corrupti labore alias expedita vel vitae, dolor facilis?
+                <h1 className='mt-4 text-lg'>
+                    Let us lend our HR expertise to your employment projects. We’ll remove the guesswork and free up your staff to focus on core business, while you enjoy the peace of mind that comes from knowing your projects follow HR best practice and are aligned with relevant employment laws.
                 </h1>
-                <p className='mt-4'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestiae ipsam autem. Eaque placeat dignissimos est praesentium officia veritatis nam, quibusdam enim corrupti labore alias expedita vel vitae, dolor facilis?  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis libero hic ea ratione dolore, corporis iure dicta numquam, saepe, omnis magnam voluptate tempora repellat illo. Praesentium veniam cupiditate corporis aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam doloremque tenetur, esse ut in provident, a sunt quas optio ad obcaecati quae laborum debitis, excepturi laboriosam quibusdam magni incidunt ratione? Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptates incidunt perferendis, dignissimos nostrum eaque voluptas non cumque iusto doloremque consequuntur aspernatur expedita quisquam maiores nulla laudantium quasi voluptatum excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore esse accusamus nam voluptatem aliquid magnam impedit facilis nostrum veniam. Sed modi doloremque enim voluptate quas asperiores aliquid quis ab eius. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus totam aliquam laboriosam dolores temporibus quibusdam incidunt ut earum nobis vel beatae odit rerum nam praesentium error eveniet sequi, commodi dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus totam, fugit quisquam suscipit doloribus accusantium architecto nesciunt ipsum corrupti laudantium illo error quidem hic itaque quia aliquid doloremque iste.
-                </p>
+                <div className='mt-6'>
+                    <h1 className='blue-text text-2xl'>You get exactly what you need.</h1>
+                    <p className='mt-2'>
+                        Whether you need ongoing HR support, assistance with a specific project or issue, or strategic insight on how to make the most of your human capital investments, FranChild is well-suited to provide exactly what you need without any hidden fees or retainers.
+                    </p>
+                </div>
+
+                <div className='mt-6'>
+                    <h1 className='blue-text text-2xl'>We take the time to understand your business.</h1>
+                    <p className='mt-2'>
+                        FranChild approaches each project with the success of your business in mind. We offer a personalized HR experience heavily focused on your culture and business strategy. We strive to satisfy your HR needs in a way that contributes to the current objectives of your organization.
+                    </p>
+                </div>
+
+                <div className='mt-6'>
+                    <h1 className='blue-text text-2xl'>We begin with the end in mind.</h1>
+                    <p className='mt-2'>
+                        FranChild takes a results-based approach to the delivery of HR services. HR Consulting efforts are framed by key objectives along with the steps, resources, and expertise required to achieve those outcomes. Project scope, complexity, and client preferences are expertly navigated through management of schedules, deliverables, and status updates.
+                    </p>
+                </div>
+
+                <div className='mt-6'>
+                    <h1 className='blue-text text-2xl'>We provide professional, easy-to-understand communications.</h1>
+                    <p className='mt-2'>
+                        FranChild’s communications are designed to be easily understood and leveraged by the target audience—whether an offer letter for a new employee or findings and recommendations report for top leadership. Regardless of the project, FranChild realizes that providing an “answer” or submitting a report is not always sufficient. Equipping the employer to implement or message that information can be equally as important..
+                    </p>
+                </div>
+                
+
+                <div className='h-60 mt-20 rounded-lg shadow-2xl bg-cover pl-8 pt-12 md:bg-center lg:pl-16 lg:pt-16' style={{backgroundImage:`url(./images/call_image.jpg)`}}>
+                    <p className='blue-text text-2xl md:text-3xl font-semibold' >Looking for expert HR support</p>
+                    <button className='px-4 py-2 mt-3 bg-blue-900 text-white rounded  hover:bg-blue-700 transition focus:outline-none' type="submit">
+                        <a href="mailto:info@franchild.com">Contact Us</a>
+                    </button>
+                </div>
             </div>
         </div>
         </>

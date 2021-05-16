@@ -30,7 +30,7 @@ const Services = () => {
             {items.map((item) => {
                 const { id, aos, duration, easing, title, desc, path} = item
                 return(
-                <div key={id} className='w-11/12 sm:w-10/12 pl-8 border-t-2 mt-10'
+                <div key={id} className='w-11/12 sm:w-10/12 border-t-2 mt-10'
                     data-aos={aos}
                     data-aos-duration={duration}
                     data-aos-easing={easing}

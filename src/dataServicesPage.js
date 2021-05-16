@@ -15,7 +15,7 @@ const dataServicesPage = [
         duration:'1000',
         easing:'ease-in-out',
         title: 'Search and Placement',
-        desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore temporibus omnis, quod veritatis possimus amet, soluta necessitatibus libero hic sequi in alias impedit iure eum, distinctio modi tenetur quisquam. Laboriosam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, molestiae. Qui quasi laborum nemo laudantium dolores, molestias commodi quis, sint quidem cum fugiat. Doloribus iure autem libero, aperiam quo nisi?',
+        desc: 'It is no secret that there is a “war for talent” in the business world to win the best and brightest employees. See how FranChild’s search and placement service can help you take on this challenge and find the right people for your organization.',
         path: '/search'
     },
 
@@ -35,7 +35,7 @@ const dataServicesPage = [
         duration:'1000',
         easing:'ease-in-out',
         title: 'Outsourcing',
-        desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore temporibus omnis, quod veritatis possimus amet, soluta necessitatibus libero hic sequi in alias impedit iure eum, distinctio modi tenetur quisquam. Laboriosam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, molestiae. Qui quasi laborum nemo laudantium dolores, molestias commodi quis, sint quidem cum fugiat. Doloribus iure autem libero, aperiam quo nisi?',
+        desc: 'At FranChild, we understand that every business is unique. Whether you’re looking to ensure compliance with employment laws, position your company as a progressive employer of choice, or establish a proven, technology-enabled HR program, you’ll enjoy the convenience of a personalized HR experience that scales with the needs of your business. With FranChild, you can relax, knowing your HR needs are being handled by an entire team of professionals driven to help your business succeed!',
         path: '/outsourcing'
     },
 
@@ -45,7 +45,7 @@ const dataServicesPage = [
         duration:'1000',
         easing:'ease-in-out',
         title: 'HR and Business Advisory',
-        desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore temporibus omnis, quod veritatis possimus amet, soluta necessitatibus libero hic sequi in alias impedit iure eum, distinctio modi tenetur quisquam. Laboriosam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, molestiae. Qui quasi laborum nemo laudantium dolores, molestias commodi quis, sint quidem cum fugiat. Doloribus iure autem libero, aperiam quo nisi?',
+        desc: 'Let us lend our HR expertise to your employment projects. We’ll remove the guesswork and free up your staff to focus on core business, while you enjoy the peace of mind that comes from knowing your projects follow HR best practice and are aligned with relevant employment laws.',
         path: '/advisory'
     }
 
