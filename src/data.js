@@ -27,7 +27,7 @@ const data = [
         easing:'ease-in-out',
         path: './images/Staff_Evaluation.png',
         title: 'Staff Evaluation',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate quia. Omnis eaque tempora nisi? Incidunt',
+        desc: 'Worried about how your employees are performing? At FranChild we help you examine how well an employee is performing in his or her job.',
         servicePath: 'evaluation'
     },
 

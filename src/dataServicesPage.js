@@ -25,7 +25,7 @@ const dataServicesPage = [
         duration:'1000',
         easing:'ease-in-out',
         title: 'Staff Evaluation',
-        desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore temporibus omnis, quod veritatis possimus amet, soluta necessitatibus libero hic sequi in alias impedit iure eum, distinctio modi tenetur quisquam. Laboriosam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, molestiae. Qui quasi laborum nemo laudantium dolores, molestias commodi quis, sint quidem cum fugiat. Doloribus iure autem libero, aperiam quo nisi?',
+        desc: 'As a business owner, you already know the importance of recruiting capable staff and providing the employees with the training and tools necessary to do their jobs. To ensure they are performing to your expectations FranChild helps reviews of their work product, efficiency and attitude over the course of their employment.',
         path: '/evaluation'
     },
 
