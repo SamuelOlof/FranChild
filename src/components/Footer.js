@@ -74,7 +74,7 @@ const Footer = () => {
                 </div>
 
                 <div className='md:w-52 mt-2  md:mt-6'>
-                    +7(900)2932166
+                    +234 706 957 6677
                 </div>
 
                 <div className='md:w-52 mt-2 md:mt-6'>
