@@ -4,7 +4,7 @@ import React from 'react';
 const Different = () => {
     return (
         <div className='flex flex-col items-center my-24'>
-            <h1 className='mb-2 text-xl md:text-3xl blue-text font-bold text-center w-11/12 sm:w-10/12'>What's different about FranChild</h1>
+            <h1 className='mb-2 text-xl md:text-3xl blue-text font-bold text-center w-11/12 sm:w-10/12'>What's different about Talent Code Consulting</h1>
             <hr className='border-2 border-dotted border-gray-200 w-7/12 mb-20' />
 
             <div className='w-11/12 sm:w-10/12 px-4 flex flex-col md:flex-row justify-around items-center'>
@@ -29,7 +29,7 @@ const Different = () => {
             </div>
 
             <button className='mt-12 px-4 py-2 bg-blue-900 text-white rounded hover:bg-blue-700 transition focus:outline-none animate-bounce' type="submit" >
-                <a href="mailto:info@franchild.com">Contact Us</a>
+                <a href="mailto:info@talentcode.com">Contact Us</a>
             </button>
         </div>
     )

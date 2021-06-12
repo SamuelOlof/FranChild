@@ -49,7 +49,7 @@ const training = () => {
                     </p>
 
                     <p className='mt-4'>
-                        At FranChild we have a suite of offerings for SMEs and mid-tier businesses, delivered by our experienced People Directors, that can be personalised to your unique business and deliver the improvements that you need so you can reap the benefits. These include:
+                        At Talent Code Consulting we have a suite of offerings for SMEs and mid-tier businesses, delivered by our experienced People Directors, that can be personalised to your unique business and deliver the improvements that you need so you can reap the benefits. These include:
                     </p>
 
                     <ul className='mt-4 text-black'>
@@ -83,7 +83,7 @@ const training = () => {
                     </ul>
 
                     <p className='mt-4'>
-                        We do this having understood your business and as part of your overall people plan, maximizing the impact of investing in training and development. <span className='text-black'><a href="mailto:info@franchild.com">Contact Us</a></span> to find out how we can partner with you to develop your team.
+                        We do this having understood your business and as part of your overall people plan, maximizing the impact of investing in training and development. <span className='text-black'><a href="mailto:info@talentcode.com">Contact Us</a></span> to find out how we can partner with you to develop your team.
                     </p>
 
                 </div>
@@ -91,7 +91,7 @@ const training = () => {
                 <div className='h-60 mt-20 rounded-lg shadow-2xl bg-cover pl-8 pt-12 md:bg-center lg:pl-16 lg:pt-16' style={{backgroundImage:`url(./images/call_image.jpg)`}}>
                     <p className='blue-text text-2xl md:text-3xl font-semibold' >Looking for expert HR support</p>
                     <button className='px-4 py-2 mt-3 bg-blue-900 text-white rounded  hover:bg-blue-700 transition focus:outline-none' type="submit">
-                        <a href="mailto:info@franchild.com">Contact Us</a>
+                        <a href="mailto:info@talentcode.com">Contact Us</a>
                     </button>
                 </div>
             </div>

@@ -28,12 +28,12 @@ const Navbar = () => {
 
     return (
         
-        <nav className=' shadow-sm flex justify-center bg-white fixed inset-x-0 top-0'>
+        <nav className='shadow-sm flex justify-center bg-white fixed inset-x-0 top-0'>
             <div className='w-11/12 sm:w-10/12 flex justify-between h-16 items-center '>
-                {/* Company name */}
-                <a href='/' className='pl-4 text-2xl font-bold tracking-widest'>
-                    <span className='blue-text'>Fran</span>Child
-                </a>
+                {/* Logo */}
+                <div>
+                    <img className="h-44 mt-3" src='./images/logo-02.svg' alt="Talentcode logo" />
+                </div>
 
                 {/* hamburger */}
                 <div className='px-4 cursor-pointer md:hidden' onClick={toggle}>
@@ -69,7 +69,7 @@ const Navbar = () => {
                 </div>
 
                 {/* nav items */}
-                <div className="pr-4 md:block hidden ">
+                <div className="pr-4 md:block hidden text-gray-500">
                     <a className='p-4 hover:text-blue-600' href='/'>
                         Home
                     </a>
