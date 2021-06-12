@@ -13,7 +13,7 @@ const search = () => {
         <div className='flex justify-center'>
             <div className='w-11/12 sm:w-10/12 px-4 py-10 leading-8 text-gray-700'>
                 <p className='mt-4'>
-                    FranChild’s HR advisory group has created a unique and customizable approach where our team will serve as your strategic talent acquisition business partner throughout the employee lifecycle̶ starting with the recruitment phase.
+                    Talent Code Consulting HR advisory group has created a unique and customizable approach where our team will serve as your strategic talent acquisition business partner throughout the employee lifecycle̶ starting with the recruitment phase.
                 </p>
 
                 <p className='mt-4 text-2xl blue-text'>
@@ -65,7 +65,7 @@ const search = () => {
                 <div className='h-60 mt-20 rounded-lg shadow-2xl bg-cover pl-8 pt-12 md:bg-center lg:pl-16 lg:pt-16' style={{backgroundImage:`url(./images/call_image.jpg)`}}>
                     <p className='blue-text text-2xl md:text-3xl font-semibold' >Looking for expert HR support</p>
                     <button className='px-4 py-2 mt-3 bg-blue-900 text-white rounded  hover:bg-blue-700 transition focus:outline-none' type="submit">
-                        <a href="mailto:info@franchild.com">Contact Us</a>
+                        <a href="mailto:info@talentcode.com">Contact Us</a>
                     </button>
                 </div>
             </div>

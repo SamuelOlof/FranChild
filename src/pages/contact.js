@@ -12,7 +12,7 @@ const Contact = () => {
                 />
                     <Marker position={[6.431700, 3.508700]}>
                         <Popup>
-                            FranChild Ltd.
+                            Talent Code Consulting
                         </Popup>
                     </Marker>
             </MapContainer>
@@ -27,7 +27,7 @@ const Contact = () => {
 
                         <p>
                             <svg className="w-6 h-6 inline-block blue-text" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                             <a href="mailto:info@franchild.com"> <span className='ml-2'>info@franchild.com</span></a>
+                             <a href="mailto:info@franchild.com"> <span className='ml-2'>info@talentcode.com</span></a>
                         </p>
 
                         <p>
@@ -58,7 +58,7 @@ const Contact = () => {
                         <p className='text-lg font-semibold blue-text'>We are here ready to help you. Contact us today so we can help elevate your companies growth.</p>
 
                         <button className='mt-12 px-4 py-2 bg-blue-900 text-white rounded  hover:bg-blue-700 transition focus:outline-none animate-bounce' style={{zIndex:-1}} type="submit" >
-                            <a href="mailto:info@franchild.com">Contact Us</a>
+                            <a href="mailto:info@talentcode.com">Contact Us</a>
                         </button>
                     </div>
                 </div>

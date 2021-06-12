@@ -76,7 +76,7 @@ const evaluation = () => {
                 <div className='h-60 mt-20 rounded-lg shadow-2xl bg-cover pl-8 pt-12 md:bg-center lg:pl-16 lg:pt-16' style={{backgroundImage:`url(./images/call_image.jpg)`}}>
                     <p className='blue-text text-2xl md:text-3xl font-semibold' >Looking for expert HR support</p>
                     <button className='px-4 py-2 mt-3 bg-blue-900 text-white rounded  hover:bg-blue-700 transition focus:outline-none' type="submit">
-                        <a href="mailto:info@franchild.com">Contact Us</a>
+                        <a href="mailto:info@talentcode.com">Contact Us</a>
                     </button>
                 </div>
             </div>

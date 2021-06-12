@@ -16,7 +16,7 @@ const data = [
         easing:'ease-in-out',
         path: './images/Search&Placement.png',
         title: 'Search and Placement',
-        desc: 'See how FranChild’s search and placement service can help you take on this challenge and find the right people for your organization.',
+        desc: 'See how Talent Code Consulting search and placement service can help you take on this challenge and find the right people for your organization.',
         servicePath: '/search'
     },
 
@@ -27,7 +27,7 @@ const data = [
         easing:'ease-in-out',
         path: './images/Staff_Evaluation.png',
         title: 'Staff Evaluation',
-        desc: 'Worried about how your employees are performing? At FranChild we help you examine how well an employee is performing in his or her job.',
+        desc: 'Worried about how your employees are performing? At Talent Code Consulting we help you examine how well an employee is performing in his or her job.',
         servicePath: 'evaluation'
     },
 
@@ -38,7 +38,7 @@ const data = [
         easing:'ease-in-out',
         path: './images/Outsourcing.png',
         title: 'Outsourcing',
-        desc: 'HR does not have to be hard. Offload the complexity of HR to the professionals at FranChild, and free up your staff to focus on growing your business',
+        desc: 'HR does not have to be hard. Offload the complexity to the professionals at Talent Code Consulting, and free up your staff to focus on growing your business',
         servicePath: 'outsourcing'
     },
 
@@ -49,7 +49,7 @@ const data = [
         easing:'ease-in-out',
         path: './images/Business_Advisory.png',
         title: 'HR and Business Advisory',
-        desc: 'FranChild encompass a broad spectrum of HR disciplines designed to provide HR expertise that supports the success of your organization.',
+        desc: 'Talent Code Consulting encompass a broad spectrum of HR disciplines designed to provide expertise that supports your organization success.',
         servicePath: 'advisory'
     },
 ]

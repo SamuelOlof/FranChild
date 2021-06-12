@@ -8,10 +8,7 @@ const Footer = () => {
             <div className='flex flex-col md:flex-row w-11/12 sm:w-10/12 justify-between mt-16' >
                 {/* company name */}
                 <div className='md:w-52'>
-                    <Link to='/' className='text-2xl font-bold tracking-widest'>
-                        <span className='text-blue-600'>FranChild</span>
-                    </Link>
-                    <p className='mt-2 mb-8'>Your Partner for Growth</p>
+                    <img className="h-48 " src='./images/logo-02.svg' alt="Talentcode_logo" />
                 </div>
 
                 {/* list items */}
@@ -57,7 +54,7 @@ const Footer = () => {
             <div className='flex flex-col md:flex-row w-11/12 sm:w-10/12 justify-between mt-8 mb-16'>
                 <div className='md:w-52 '>
                     <h1 className='mb-3 md:mb-0'>Contact</h1>
-                    <p>Email- <a href="mailto:info@franchild.com"> info@franchild.com</a>
+                    <p>Email- <a href="mailto:info@talentcode.com"> info@talentcode.com</a>
                     {/* social icons */}
                     <div className='flex justify-center md:justify-start mt-2 '>
                         <a href="http://twitter.com">

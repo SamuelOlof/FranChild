@@ -11,7 +11,7 @@ const Hero = () => {
                     </p>
                     
                     <button className='px-4 py-2 bg-blue-900 text-white rounded  hover:bg-blue-800 transition focus:outline-none' type="submit">
-                        <a href="mailto:info@franchild.com">Contact Us</a>
+                        <a href="mailto:info@talentcode.com">Contact Us</a>
                     </button>
                 </div>
 
@@ -21,7 +21,7 @@ const Hero = () => {
                     data-aos-duration="1500"
                     data-aos-easing="ease-in-out"
                 >
-                    <img className='md:w-92 md:h-80 rounded-md' src='./images/g2.jpg' alt="hero image"/>
+                    <img className='md:w-92 md:h-80 rounded-md' src='./images/g2.jpg' alt="hero_image"/>
                 </div>
             </div>
         </div>

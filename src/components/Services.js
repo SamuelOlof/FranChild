@@ -37,7 +37,7 @@ const Services = () => {
                                 <p className='text-gray-500 px-2 sm:px-3 text-center'>{desc}</p>
 
                                 <button className='px-4 py-2 mt-12 sm:mt-8 mb-0 bg-blue-900 text-white rounded hover:bg-blue-700 transition focus:outline-none' type="submit">
-                                    <a href={servicePath} target='_blank'>Learn more...</a>
+                                    <a href={servicePath} target='_blank' rel="noreferrer">Learn more...</a>
                                 </button>
                             </div>
                         )

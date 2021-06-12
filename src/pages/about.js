@@ -20,7 +20,7 @@ const about = () => {
                 </p>
 
                 <p className='mt-4'>
-                    At FranChild our Business Partners work to ensure that our clients function optimally through their people resource to achieve business objectives while ensuring a happier and healthier workforce that understand the KPIs of Organizational performance. 
+                    At Talent Code Consulting our Business Partners work to ensure that our clients function optimally through their people resource to achieve business objectives while ensuring a happier and healthier workforce that understand the KPIs of Organizational performance. 
                 </p> 
 
                 <p className='block mt-6 mb-2 text-xl blue-text font-semibold'>
@@ -36,7 +36,7 @@ const about = () => {
                 </p>
 
                 <p className='mt-4'>
-                    At FranChild, we develop methods for compiling and analyzing data for reports and special projects for clients and conduct audits of HR activities to ensure compliance. 
+                    At  Talent Code Consulting, we develop methods for compiling and analyzing data for reports and special projects for clients and conduct audits of HR activities to ensure compliance. 
                 </p>
 
                 <p className='mt-4'>
@@ -47,7 +47,7 @@ const about = () => {
             <div className='h-60 w-11/12 sm:w-10/12 mt-20 rounded-lg shadow-2xl bg-cover pl-8 pt-12 md:bg-center lg:pl-16 lg:pt-16' style={{backgroundImage:`url(./images/call_image.jpg)`}}>
                 <p className='blue-text text-2xl md:text-3xl font-semibold' >Looking for expert HR support</p>
                 <button className='px-4 py-2 mt-3 bg-blue-900 text-white rounded  hover:bg-blue-700 transition focus:outline-none' type="submit">
-                    <a href="mailto:info@franchild.com">Contact Us</a>
+                    <a href="mailto:info@talentcode.com">Contact Us</a>
                 </button>
             </div>
         </div>
