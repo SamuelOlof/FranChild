@@ -1,28 +1,10 @@
 import React, {useState} from 'react';
-import Dropdown from './Dropdown';
 
 const Navbar = () => {
     const [isClick, setIsClick] = useState(false);
-    const [dropdown, setDropdown] = useState(false);
 
     const toggle = () => {
         setIsClick(!isClick);
-    };
-
-    const onMouseEnter = () => {
-        if (window.innerWidth < 768){
-            setDropdown(false);
-        }else{
-            setDropdown(true);
-        }
-    };
-
-    const onMouseLeave = () => {
-        if (window.innerWidth < 768){
-            setDropdown(false);
-        }else{
-            setDropdown(false);
-        }
     };
     
 
@@ -32,7 +14,9 @@ const Navbar = () => {
             <div className='w-11/12 sm:w-10/12 flex justify-between h-16 items-center '>
                 {/* Logo */}
                 <div>
-                    <img className="h-44 mt-3" src='./images/logo-02.svg' alt="Talentcode logo" />
+                    <a href="/">
+                        <img className="h-44 mt-3" src='./images/logo-02.svg' alt="Talentcode logo" />
+                    </a>
                 </div>
 
                 {/* hamburger */}
@@ -79,13 +63,9 @@ const Navbar = () => {
                     </a>
 
                     <div className='inline-block'>
-                        <a className='p-4 hover:text-blue-600' href='/services'
-                            onMouseEnter={onMouseEnter}
-                            onMouseLeave={onMouseLeave}
-                        >
+                        <a className='p-4 hover:text-blue-600' href='/services'>
                             Our services
                         </a>
-                        {dropdown && <Dropdown/>}
                     </div>
 
                     <a className='p-4 hover:text-blue-600' href='/contact'>

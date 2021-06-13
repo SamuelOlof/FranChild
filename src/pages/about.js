@@ -28,7 +28,7 @@ const about = () => {
                 </p>
 
                 <p className='mt-4'>
-                    The administration of human resources policies and procedures. We serve as internal consultants by analyzing a company’s current HR programs and recommending solutions where applicable. More so, we develo, revise and implement HR policies and procedures for our clients ensuring HR programs and services are in compliance with established policies and procedures and state/federal laws and regulations. 
+                    The administration of human resources policies and procedures. We serve as internal consultants by analyzing a company’s current HR programs and recommending solutions where applicable. More so, we develop, revise and implement HR policies and procedures for our clients ensuring HR programs and services are in compliance with established policies and procedures and state/federal laws and regulations. 
                 </p>
 
                 <p className='mt-4'>
