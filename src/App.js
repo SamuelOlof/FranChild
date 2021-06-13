@@ -6,7 +6,6 @@ import { Switch, Route } from 'react-router-dom';
 import About from './pages/about';
 import Services from './pages/services';
 import Contact from './pages/contact';
-import Dropdown from './components/Dropdown';
 import Training from './pages/training';
 import Search from './pages/search';
 import Evaluation from './pages/evaluation';
@@ -20,7 +19,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <Dropdown />
       <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />

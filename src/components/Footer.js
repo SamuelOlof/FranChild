@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { IoLogoTwitter, IoLogoInstagram, IoLogoFacebook } from 'react-icons/io';
 
 const Footer = () => {
@@ -7,35 +6,37 @@ const Footer = () => {
         <div className='bg-blue-900 flex flex-col items-center text-white text-center md:text-left'>
             <div className='flex flex-col md:flex-row w-11/12 sm:w-10/12 justify-between mt-16' >
                 {/* company name */}
-                <div className='md:w-52'>
-                    <img className="h-48 " src='./images/logo-02.svg' alt="Talentcode_logo" />
+                <div className='md:w-52 '>
+                    <a className="flex justify-center" href="/">
+                        <img className="h-48" src='./images/logo-02.svg' alt="Talentcode_logo" />
+                    </a>
                 </div>
 
                 {/* list items */}
                 <div className='md:w-52' >
                     <ul>
                         <li className='mb-3'>
-                            <Link to='/'>
+                            <a href='/'>
                                 Home
-                            </Link>
+                            </a>
                         </li>
 
                         <li className='mb-3'>
-                            <Link to='/about'>
+                            <a href='/about'>
                                 About Us
-                            </Link>
+                            </a>
                         </li>
 
                         <li className='mb-3'>
-                            <Link to='/services'>
+                            <a href='/services'>
                                 Our Services
-                            </Link>
+                            </a>
                         </li>
 
                         <li className='mb-3'>
-                            <Link to='/contact'>
+                            <a href='/contact'>
                                 Contact Us
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                 </div>
