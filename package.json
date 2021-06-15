@@ -1,7 +1,8 @@
 {
-  "name": "franchild",
+  "name": "talentcode",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://talentcode.ng/",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@testing-library/jest-dom": "^5.12.0",
