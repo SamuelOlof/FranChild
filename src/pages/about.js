@@ -8,7 +8,7 @@ const about = () => {
         <div className='relative ' style={{zIndex:-1}}>
             <div className='h-72 md:h-80  mt-16 opacity-60 bg-cover bg-center bg-no-repeat' style={{backgroundImage:`url(./images/about_image.jpg)`}}></div>
             <div className='blue-text absolute top-0 w-full  flex flex-col mt-24 items-center'>
-                <h1 className='text-2xl md:text-4xl font-bold text-center'> Who we are | Human Resource Management </h1> 
+                <h1 className='text-2xl md:text-4xl font-bold text-center'> Who we are | People Development Company </h1> 
                 <h1 className='mt-6 text-xl font-semibold'> Our Culture</h1>
             </div>
         </div>
